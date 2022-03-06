@@ -1,0 +1,79 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.divlarge{
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+.top{
+    width: 100vw;
+    min-height: 9vh;
+
+    background-color: rgb(21, 17, 235);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+}
+.middle{
+    width: 100vw;
+    height: 6vh;
+    background-color: rgb(207, 81, 81); 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: flex; justify-content: center; align-items: center;
+    gap: 80px;
+}
+
+.bottom{
+    width: 100vw;
+    height: 85vh;
+
+}
+.topleft{
+    height: 40px;
+    flex: 3;
+    display: flex;
+    flex-direction: row; justify-content: center; align-items: center; gap: 50px;
+}
+
+.topright{
+    height: 40px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    gap: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.searchbox{
+    padding: 3px;
+    width: 300px;
+}
+h2{
+    color: white;
+}
+.bottom{
+    padding: 10px;
+}
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+    padding: 10px;
+
+  }
+  .centered{
+   color: black;
+  }
+  #h2men{
+      color: black;
+  }
+  
